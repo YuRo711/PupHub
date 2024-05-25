@@ -116,3 +116,45 @@
     left: -70px;
     top: 400px;
 }
+
+.intro__paw_small {
+    position: absolute;
+}
+
+.intro__paw_small:nth-of-type(7) {
+    top: 400px;
+    left: 110px;
+}
+
+.intro__paw_small:nth-of-type(6) {
+    top: 30px;
+    left: 380px;
+}
+
+.intro__paw_small:nth-of-type(5) {
+    top: 250px;
+    left: 470px;
+}
+
+.intro__paw_small:nth-of-type(4) {
+    top: 120px;
+    left: 350px;
+}
+
+.intro__paw_small:nth-of-type(3) {
+    top: 120px;
+    left: 150px;
+    transform: rotate(-90deg);
+}
+
+.intro__paw_small:nth-of-type(2) {
+    top: 80px;
+    left: 250px;
+    transform: rotate(-45deg);
+}
+
+.intro__paw_small:nth-of-type(1) {
+    top: 80px;
+    left: 50px;
+    transform: rotate(45deg);
+}
