@@ -1,9 +1,11 @@
 .services {
     margin: 270px 0 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .services__title {
-    font-family: 'Pangolin';
+    font-family: 'Pangolin', Helvetica, sans-serif;
     font-size: 28px;
     line-height: 42px;
     margin: 0;
@@ -12,4 +14,29 @@
 .services__title-line {
     width: 117px;
     border-top: solid 4px #3A8DA8;
+}
+
+.services__categories {
+    display: flex;
+    justify-content: space-between;
+    margin: 52px 0 0;
+}
+
+.services__category {
+    width: 200px;
+    height: 224px;
+    border: solid 1px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 0 0 38px;
+}
+
+.services__image {
+    margin: auto 0 20px;
 }
