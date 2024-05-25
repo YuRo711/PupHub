@@ -41,11 +41,16 @@
     font-size: 20px;
     box-sizing: border-box;
     padding: 0 0 38px;
+    transition: scale 0.2s ease-in-out;
 }
 
 .services__category:nth-of-type(2n) {
     border: solid 1px #FFEE94;
     background-image: linear-gradient(0, #FFF, #FFEE9432);
+}
+
+.services__category:hover {
+    scale: 1.1;
 }
 
 .services__image {
