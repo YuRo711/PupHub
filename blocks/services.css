@@ -1,0 +1,15 @@
+.services {
+    margin: 270px 0 0;
+}
+
+.services__title {
+    font-family: 'Pangolin';
+    font-size: 28px;
+    line-height: 42px;
+    margin: 0;
+}
+
+.services__title-line {
+    width: 117px;
+    border-top: solid 4px #3A8DA8;
+}
