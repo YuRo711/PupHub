@@ -1,6 +1,7 @@
 .header {
     display: flex;
     align-items: center;
+    padding: 40px 120px 0;
 }
 
 .header__nav {

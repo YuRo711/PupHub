@@ -1,17 +1,18 @@
 .intro {
     position: relative;
+    padding-left: 200px;
 }
 
 .intro__bg {
     position: absolute;
     top: -120px;
-    left: -123px;
+    left: -43px;
     z-index: -1;
 }
 
 .intro__info {
     max-width: 420px;
-    margin: 150px 0 0 80px;
+    margin: 150px 0 0;
 }
 
 .intro__title {
@@ -52,7 +53,7 @@
 .intro__image {
     position: absolute;
     top: 0;
-    left: 620px;
+    left: 700px;
 }
 
 .intro__blob {

@@ -1,22 +1,19 @@
 .services {
     margin: 270px 0 0;
+    padding: 0 158px;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .services__title {
     font-family: 'Pangolin', Helvetica, sans-serif;
     font-size: 28px;
     line-height: 42px;
-    width: 1124px;
     margin: 0;
 }
 
 .services__title-line {
     width: 117px;
-    position: relative;
-    left: -500px;
     border-top: solid 4px #3A8DA8;
 }
 
@@ -24,7 +21,6 @@
     display: flex;
     justify-content: space-between;
     margin: 52px 0 0;
-    width: 1124px;
 }
 
 .services__category {
