@@ -1,0 +1,49 @@
+.intro {
+    position: relative;
+}
+
+.intro__bg {
+    position: absolute;
+    top: -120px;
+    left: -123px;
+    z-index: -1;
+}
+
+.intro__info {
+    max-width: 420px;
+    margin: 150px 0 0 80px;
+}
+
+.intro__title {
+    font-family: 'Pangolin';
+    font-size: 44px;
+    margin: 0;
+}
+
+.intro__text {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 19px;
+    margin: 32px 0 0;
+}
+
+.intro__button {
+    margin: 56px 0 0;
+    height: 60px;
+    width: 200px;
+    font-family: 'Glades', Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #124C5F;
+}
+
+.intro__button:hover {
+    background-color: #104455;
+}
+
+.intro__button:active {
+    background-color: #0b3442;
+}

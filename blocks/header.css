@@ -1,7 +1,6 @@
 .header {
     display: flex;
     align-items: center;
-    padding: 40px 120px 0;
 }
 
 .header__nav {
@@ -41,7 +40,23 @@
     background-color: #124C5F;
 }
 
+.header__button_login:hover {
+    background-color: #104455;
+}
+
+.header__button_login:active {
+    background-color: #0b3442;
+}
+
 .header__button_signup {
     color: #124C5F;
     background-color: #C7E7E1;
+}
+
+.header__button_signup:hover {
+    background-color: #afd6cf;
+}
+
+.header__button_signup:active {
+    background-color: #98c0b9;
 }
