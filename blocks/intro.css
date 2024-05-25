@@ -23,6 +23,7 @@
 .intro__text {
     font-family: 'Roboto', Helvetica, sans-serif;
     font-size: 19px;
+    line-height: 28px;
     margin: 32px 0 0;
 }
 
@@ -46,4 +47,27 @@
 
 .intro__button:active {
     background-color: #0b3442;
+}
+
+.intro__image {
+    position: absolute;
+    top: 0;
+    left: 620px;
+}
+
+.intro__blob {
+    background-image: url('../images/blob\ 2.svg');
+    background-repeat: no-repeat;
+    width: 550px;
+    height: 550px;
+    overflow: hidden;
+}
+
+.intro__dog {
+    mask-image: url('../images/blob\ 2.svg');
+    mask-repeat: no-repeat;
+    mask-size: cover;
+    position: relative;
+    top: -127px;
+    left: -16px;
 }
