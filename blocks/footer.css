@@ -1,4 +1,30 @@
 .footer {
     background-color: #F6FAF9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    height: 82px;
 }
 
+.footer__copyright {
+    color: #414141;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footer__links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 56px;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Pangolin', Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
