@@ -1,35 +1,5 @@
 @font-face {
-    font-family: 'Gilroy';
+    font-family: 'Glades';
     font-weight: 700;
-    src: url('fonts/Gilroy-Bold.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Gilroy';
-    font-weight: 900;
-    src: url('fonts/Gilroy-Heavy.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Gilroy';
-    font-weight: 300;
-    src: url('fonts/Gilroy-Light.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Gilroy';
-    font-weight: 500;
-    src: url('fonts/Gilroy-Medium.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Gilroy';
-    font-weight: 400;
-    src: url('fonts/Gilroy-Regular.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Chronicle Display';
-    font-weight: 600;
-    src: url('fonts/Chronicle\ Display\ Semibold.otf') format('otf');
+    src: url('fonts/NCAA\ FSU\ Noles\ Glades\ Bold.otf') format('otf');
 }
