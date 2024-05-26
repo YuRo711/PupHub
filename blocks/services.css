@@ -1,6 +1,6 @@
 .services {
     margin: 270px 0 0;
-    padding: 0 158px;
+    padding: 0 158px 40px;
     display: flex;
     flex-direction: column;
 }

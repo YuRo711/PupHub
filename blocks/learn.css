@@ -1,0 +1,97 @@
+.learn {
+    display: flex;
+    position: relative;
+}
+
+.learn__info {
+    margin: 113px 0 0;
+    max-width: 510px;
+}
+
+.learn__title {
+    margin: 0;
+    font-family: 'Pangolin', Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+}
+
+.learn__text {
+    color: #4E4C46;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 19px;
+    line-height: 28px;
+    margin: 32px 0 0;
+}
+
+.learn__button {
+    margin: 56px 0 0;
+    height: 60px;
+    width: 200px;
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #124C5F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.learn__button:hover {
+    background-color: #104455;
+}
+
+.learn__button:active {
+    background-color: #0b3442;
+}
+
+.learn__food-image {
+    position: absolute;
+    left: 400px;
+    top: 600px;
+}
+
+.learn__paw-image {
+    position: absolute;
+    top: 0;
+    right: 200px;
+}
+
+.learn__video {
+    background-image: url('../images/blob\ 3.svg');
+    width: 175px;
+    height: 155px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 100px;
+    left: 450px;
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+
+.learn__video-button {
+    background: none;
+    background-image: url('../images/video.svg');
+    border: none;
+    width: 55px;
+    height: 52px;
+    cursor: pointer;
+    transition: scale 0.2s ease-in-out;
+}
+
+.learn__video-button:hover {
+    scale: 1.1;
+}

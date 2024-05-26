@@ -1,5 +1,9 @@
 .footer {
+    margin-top: auto;
     background-color: #F6FAF9;
+}
+
+.footer__box {
     display: flex;
     justify-content: center;
     align-items: center;
