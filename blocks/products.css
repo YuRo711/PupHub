@@ -1,0 +1,62 @@
+.products {
+    padding: 0 158px 60px;
+}
+
+.products__title {
+    font-family: 'Pangolin', Helvetica, sans-serif;
+    font-size: 28px;
+    line-height: 42px;
+    margin: 0;
+}
+
+.products__title-line {
+    width: 117px;
+    border-top: solid 4px #3A8DA8;
+}
+
+.products__discount {
+    display: flex;
+    align-items: center;
+}
+
+.products__discount-title {
+    font-family: 'Pangolin', Helvetica, sans-serif;
+    font-size: 40px;
+    margin: 32px 0;
+}
+
+.products__discount-span {
+    font-family: 'Glades', Tahoma, sans-serif;
+}
+
+.products__button {
+    margin-left: auto;
+    height: 60px;
+    width: 200px;
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #124C5F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.products__button:hover {
+    background-color: #104455;
+}
+
+.products__button:active {
+    background-color: #0b3442;
+}
+
+.products__lineup {
+    margin: 36px 0 0;
+    display: flex;
+    justify-content: space-between;
+}

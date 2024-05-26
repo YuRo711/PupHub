@@ -1,0 +1,50 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+}
+
+.product__blob {
+    position: absolute;
+    top: 200px;
+    z-index: -1;
+}
+
+.product__info {
+    max-width: 300px;
+    margin: 70px 0 0;
+}
+
+.product__title {
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-size: 28px;
+    margin: 0;
+}
+
+.product__text {
+    margin: 8px 0 0;
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-size: 22px;
+    color: #979697;
+}
+
+.product__button {
+    margin: 16px 0 0 auto;
+    height: 52px;
+    width: 187px;
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    border: solid 2px #124C5F;
+    background: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #124C5F;
+    transition: scale 0.2s ease-in-out;
+}
+
+.product__button:hover {
+    scale: 1.05;
+}
