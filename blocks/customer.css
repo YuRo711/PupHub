@@ -1,0 +1,71 @@
+.customer {
+    border-radius: 33px 33px 0 0;
+    width: 360px;
+    height: 412px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.customer_color_yellow {
+    background-color: #FFF1A6;
+}
+
+.customer_color_pink {
+    background-color: #EBA8BF;
+}
+
+.customer_color_purple {
+    background-color: #DDC7ED;
+}
+
+.customer__image {
+    position: absolute;
+    bottom: 115px;
+}
+
+.customer__info {
+    background-color: #124C5F;
+    height: 142px;
+    width: 100%;
+    margin-top: auto;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.customer__title {
+    color: #DDCA69;
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-size: 28px;
+    margin: 0;
+}
+
+.customer__text {
+    color: #FFF;
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 12px 0 0;
+}
+
+.customer__rating {
+    display: flex;
+    gap: 10px;
+    margin: 12px 0 0;
+    color: #FFF;
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.customer__point {
+    background-image: url('../images/bone\ filled.svg');
+    width: 34px;
+    height: 14px;
+}
+
+.customer__point_empty {
+    background-image: url('../images/bone.svg');
+}

@@ -1,0 +1,22 @@
+.reviews {
+    padding: 40px 158px 80px;
+    background-image: linear-gradient(0, #FFF, #FFFFF6);
+}
+
+.reviews__title {
+    font-family: 'Pangolin', Helvetica, sans-serif;
+    font-size: 28px;
+    line-height: 42px;
+    margin: 0;
+}
+
+.reviews__title-line {
+    width: 117px;
+    border-top: solid 4px #3A8DA8;
+}
+
+.reviews__customers {
+    margin: 107px 0 0;
+    display: flex;
+    justify-content: space-between;
+}

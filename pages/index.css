@@ -8,6 +8,8 @@
 @import url('../blocks/learn.css');
 @import url('../blocks/products.css');
 @import url('../blocks/product.css');
+@import url('../blocks/reviews.css');
+@import url('../blocks/customer.css');
 @import url('../blocks/footer.css');
 
 html {
